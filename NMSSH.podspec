@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.ios.source_files       = 'NMSSH-iOS', 'NMSSH-iOS/**/*.h'
   spec.ios.public_header_files  = 'NMSSH-iOS/**/*.h'
 
-  spec.osx.deployment_target  = '10.7'
+  spec.osx.deployment_target  = '10.9'
   spec.osx.vendored_libraries = 'NMSSH-OSX/Libraries/lib/libssh2.a', 'NMSSH-OSX/Libraries/lib/libssl.a', 'NMSSH-OSX/Libraries/lib/libcrypto.a'
   spec.osx.source_files       = 'NMSSH-OSX', 'NMSSH-OSX/**/*.h'
   spec.osx.public_header_files  = 'NMSSH-OSX/**/*.h'
